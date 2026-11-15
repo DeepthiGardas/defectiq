@@ -1,0 +1,11 @@
+[project]
+name = "defectiq"
+version = "0.1.0"
+description = "Defect & Vulnerability Intelligence Platform (GenAI / Agentic AI portfolio project)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets - NEVER commit
+.env
+*.key
+
+# Data (generated locally)
+data/raw/*
+!data/raw/.gitkeep
+*.zip
+*.xlsx
+qdrant_storage/
+pgdata/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
